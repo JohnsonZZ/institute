@@ -1,0 +1,334 @@
+/*初始样式*/
+body {
+    font-size: 12px;
+    font-family: Arial,"Microsoft Yahei";
+    color: #979797;
+    line-height: 1;
+    min-width: 1000px;
+}
+ol, ul {
+    list-style: none;
+}
+a,a:link,a:visited,a:hover,a:active{
+	text-decoration:none;
+	color:#5e5e5e;
+}
+
+
+/*头部样式*/
+.header{
+	width: 1000px;
+    height: 80px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header .logo {
+    width: 367px;
+    height: 51px;
+    float: left;
+    margin-top: 15px;
+}
+.header .search {
+	margin-top:30px;
+    float: right;
+    width: 240px;
+    height: 30px;
+}
+
+
+/*banner样式*/
+.banner{
+	background-color:#d2dbd6;
+	height: 250px;
+    overflow: hidden;
+}
+.banner img{
+	display: block;
+    width: 1000px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+/*导航样式*/
+.nav {
+    height: 60px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.nav ul { 
+	width: 996px; 
+	padding: 0 2px; 
+	margin: 0 auto;
+}
+.nav ul li {
+    width: 165px;
+    float: left;
+}
+.nav ul li.current a {
+    border-bottom: 3px solid #ca262a;
+    height: 58px;
+}
+.nav ul li a {
+    display: block;
+    width: 110px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.nav ul li a:hover{
+	color:#eb1b1b;
+}
+
+
+/*研究院简介样式*/
+.institute-info{
+	background-color: #f8f8f8;
+	padding-top:30px;
+    height: 374px;
+    border-bottom: 1px solid #ebebeb;
+}
+.institute-info .info{
+	width: 1000px;
+    height: 314px;
+    margin: 0 auto;
+    box-shadow: 0 2px 2px #ccc;
+}
+.institute-info .info .info-image{
+	width: 556px;
+    height: 314px;
+    float: left;
+}
+.institute-info .info .content{
+	width: 444px;
+    height: 314px;
+    float: left;
+    background-color: #fff;
+}
+.institute-info .info .content .title{
+	font-size: 13px;
+    color: #5e5e5e;
+    margin-top: 60px;
+}
+.institute-info .info .content .title strong{
+	font-size: 18px;
+    padding-left: 40px;
+	font-weight: normal;
+}
+.institute-info .info .content p{
+	line-height: 24px;
+    margin-top: 20px;
+    height: 120px;
+    font-size: 13px;
+    text-align: justify;
+	padding:0 40px;
+ }  
+.institute-info .info .content .more{
+	display: block;
+    width: 60px;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #979797;
+    margin-left: 40px;
+	padding-left: 30px;
+    background: url(../images/icon-more-1.png) 0 -66px no-repeat;
+}
+.institute-info .info .content a:hover{
+	color:#eb1b1b;
+}
+
+/*主要内容样式*/
+.main .project{
+	width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+}
+.project .header{
+	height: 74px;
+}
+.project .header h3{
+	font-size: 20px;
+    float: left;
+    line-height: 74px;
+    color: #5e5e5e;
+	margin: 0;
+    padding: 0;
+}
+.project .header .more{
+	display: block;
+    float: right;
+    height: 22px;
+    line-height: 22px;
+    margin-top: 26px;
+    font-size: 14px;
+    color: #979797;
+    padding-left: 30px;
+    background: url(../images/icon-more-1.png) 0 -66px no-repeat;
+}
+.project .header a:hover{
+	color:#eb1b1b;
+}
+.project .content{
+	width: 1000px;
+    overflow: hidden;
+}
+.project .content ul{
+	width: 1035px;
+    list-style: none;
+	margin: 0;
+    padding: 0;
+}
+.project .content li {
+    width: 310px;
+    height: 363px;
+	background: url(../images/bg-list-1.png) 0 0 no-repeat;
+    padding-top: 2px;
+    margin-bottom: 25px;
+    margin-right: 35px;
+    float: left;
+    font-size: 13px;
+}
+.project .content li p {
+    margin: 25px 28px 0 28px;
+    line-height: 20px;
+    height: 100px;
+    font-size: 12px;
+    text-align: justify;
+}
+.project .content li .date {
+    margin-left: 28px;
+    color: #5e5e5e;
+    font-size: 12px;
+}
+
+
+/*合作院校样式*/
+.main .school{
+	width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+}
+.school .header{
+	height: 74px;
+}
+.school .header h3{
+	font-size: 20px;
+    float: left;
+    line-height: 74px;
+    color: #5e5e5e;
+	margin: 0;
+    padding: 0;
+}
+.school .header a:hover{
+	color:#eb1b1b;
+}
+.school .content{
+	width: 1000px;
+    overflow: hidden;
+}
+.school .content li{
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px dotted #b9b9b9;
+	
+}
+.school .content p{
+	padding-top:20px;
+	float:right;
+	width:650px;
+	font-size:16px;
+	line-height:1.5;
+}
+
+/*新闻资讯样式*/
+.main .news-list {
+    background: #fff url(../images/bg-shadow-1.png) 0 0 repeat-x;
+}
+.news-list .info {
+    width: 1000px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #5e5e5e;
+    overflow: hidden;
+}
+.news-list .info strong {
+    font-size: 26px;
+	font-weight: normal;
+}
+.news-list .content {
+    border-top: 1px solid #eaeaea;
+}
+.news-list .content ul {
+    width: 1000px;
+    margin: 0 auto;
+}
+.news-list .content li {
+    padding: 35px 0;
+}
+.news-list .content .title {
+    font-size: 18px;
+}
+.news-list .content p {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+}
+/*联系我们样式*/
+.main .contact{
+	width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px;
+}
+.main .contact .text{
+	margin-left:120px;
+	margin-right:20px;
+	width:200px;
+	height:100px;
+	float:left;
+}
+.main .contact .text h3{
+	margin:0;
+	color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.main .contact .text ul{
+    font-size: 14px;
+    padding: 10px 10px;
+    color: #666;
+}
+.main .contact .text ul li{
+    padding-top: 10px;
+}
+.main .contact .map{
+	margin-top:20px;
+	width:600px;
+	height:350px;
+	border:#ccc solid 1px;
+	font-size:12px;
+}
+/*脚部样式*/
+.footer{
+	width: 1000px;
+    margin: 40px auto 0 auto;
+    height: 60px;
+    line-height: 60px;
+    border-top: 1px dotted #b9b9b9;
+}
+.footer .link {
+    float: left;
+}
+.footer .copyright {
+    float: right;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<include file="Public/header" />
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=8ebr16l4b17C8HgB82UvWtqdlGvLopDz"></script>
+	</head>
+	<body>
+	<include file="Public/nav" />
+	<div class="main">
+		<div class="contact">
+			<div class="text">
+				<h3>联系我们</h3>
+				<ul>
+					<li>肇庆三榕电子商务研究院</li>
+					<li>官网：www.zqcxgu.com</li>
+					<li>邮编：516000</li>
+					<li>热线：0758-2107833</li>
+					<li>邮箱: zqhcltd@163.com</li>  
+				</ul>
+			</div>
+			<!--百度地图容器-->
+			<div class="map" id="map"></div>
+		</div>
+	</div>
+	<include file="Public/footer" />
+	<script src="__PUBLIC__/js/baiduapi.js"></script>
+	<script>
+		$('#contact').addClass('current');
+	</script>
+	</body>
+</html>
