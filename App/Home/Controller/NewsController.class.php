@@ -5,4 +5,7 @@ class NewsController extends Controller {
     public function index(){
         $this->display();
 	}
+	public function theme(){
+        $this->display();
+	}
 }
