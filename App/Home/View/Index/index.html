@@ -29,34 +29,18 @@
 				</div>
 				<div class="content">
 					<ul>
+						<ul>
+						<volist name="list" id="val">
 						<li>
-							<a href="{:U('Project/theme')}" class="pic" title="四轴飞行器">
-								<img src="__PUBLIC__/images/28.jpg" width="306" height="200" />
+							<a href="{:U('Home/Project/theme/id/'.$val[id])}" class="pic" title="{$val[title]}">
+								<img src="__PUBLIC__/upload/image/{$val[href]}" width="306" height="200" />
 							</a>
-							<p>四轴飞行器除了能做到和直升飞机一样垂直起降外，因其由四个螺旋桨控制，所以还能实现6个自由度的不同姿态飞行。相比较而言，四轴飞行器更加灵活，可以实现在复杂环境下稳定飞行</p>
-							<div class="date">2016/5/16</div>
+							<div class="title">{$val['title']}</div>
+							<p>{$val['brief']}</p>
+							<div class="date">{$val['time']}</div>
 						</li>
-						<li>
-							<a href="{:U('Project/theme')}" class="pic" title="机器人">
-								<img src="__PUBLIC__/images/2.jpg" width="306" height="200">
-							</a>
-							<p>机器人（Robot）是自动执行工作的机器装置。它既可以接受人类指挥，又可以运行预先编排的程序，也可以根据以人工智能技术制定的原则纲领行动。</p>
-							<div class="date">2016/5/16</div>
-						</li>
-						<li>
-							<a href="{:U('Project/theme')}" class="pic" title="手机APP">
-								<img src="__PUBLIC__/images/3.jpg" width="306" height="200">
-							</a>
-							<p>2009年开始各大手机厂商都在纷纷推出自己的手机应用商店，来为手机用户提供更多的软件资源。更是鼓励了手机软件的开发人员制作出更加优秀的软件产品来满足手机用户的需求。</p>
-							<div class="date">2016/5/16</div>
-						</li>
-						<li>
-							<a href="{:U('Project/theme')}" class="pic" title="电子商务">
-								<img src="__PUBLIC__/images/4.jpg" width="306" height="200">
-							</a>
-							<p>以电子交易方式进行交易活动和相关服务的活动，是传统商业活动各环节的电子化、网络化、信息化。</p>
-							<div class="date">2016/5/16</div>
-						</li>
+						</volist>
+					</ul>
 					</ul>
 				</div>
 			</div>
